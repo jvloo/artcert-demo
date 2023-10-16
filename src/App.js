@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
-import LandingPage from './LandingPage';
-import SignUp from './SignUp';
-import Login from './Login';
-import Dashboard from './Dashboard';
-import Upload from './Upload';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import LandingPage from './components/LandingPage';
+import SignUp from './components/SignUp';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
+import Upload from './components/Upload';
 
 const App = () => {
     return (
